@@ -1,0 +1,29 @@
+############# Colores Activados en el Arduino #########################
+#### formato ####
+usuario = "test"
+codesArduino = [0,1,2,3,4,5,7,8,255]
+messagesArduino = ["No Data o 0","Amarillo","Azul","Rojo","Verde","Blanco","Beige","Error","Sin proceso"]
+codesToSave = ["xNoColor","497-0521360","497-0468692","xRojo","497-0511356","497-0511358","xError","Beige","xSinProceso"]
+codesToSkip = [0,255,7,3] #Se colocan los número de los códigos que no deben ser guardados en la base de datos
+                        # Por defecto 0, no data relevante a guardar
+                        # 255 No proceso detectado
+codesOfError = [8]
+codeToRestartSave = [0]	#Todo en High
+timeToStabilizeEntry = 2 #Valor en Segundos
+
+#numberNoColor = 0
+#numberAmarillo = 1
+#numberAzul = 2
+#numberRojo = 3
+#numberVerde = 4
+#numberBlanco = 5
+#numberBeige = 7
+#numberError = 8
+#numberNoOperation = 255
+
+#codes =[[codesArduino],[messageArduino],[codesToSave]]
+
+
+codeArduino = 255
+messageArduino = "Sin Proceso"
+codeToSave = "xSinProceso"
